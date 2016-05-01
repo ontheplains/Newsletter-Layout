@@ -1,0 +1,124 @@
+body, * {
+    background-color: #ddd;
+    box-sizing: border-box;
+}
+.wrapper {
+    background: #fff;
+    width: 700px;
+    height: 890px;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+}
+.box {
+
+}
+.left {
+    position: absolute;
+    z-index: 2;
+    width:200px;
+    height:104px;
+    left:320px;
+    top:30px;
+    right:350px;
+    bottom:496px;
+    background-color:#d0021b;
+}
+.right {
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    height: 104px;
+    left: 760px;
+    top: 30px;
+    right: 700px;
+    bottom: 496px;
+    background-color: #4a4a4a;
+}
+.middle {
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+    height: 104px;
+    left: 540px;
+    top: 30px;
+    right: 700px;
+    bottom: 496px;
+    background-color: #3B8DE8;
+}
+.text {
+    position:absolute;
+    z-index: 1;
+    width:640px;
+    height:320px;
+    left: 320px;
+    top: 140px;
+    right: 50px;
+    bottom:50px;
+    background-color: initial;
+}
+.mid-left {
+    position:absolute;
+    z-index: 1;
+    width:214px;
+    height:245px;
+    left:320px;
+    top:500px;
+    right:923px;
+    bottom:1045px;
+    background-color:#d0021b;
+}
+.mid-right {
+    position:absolute;
+    z-index: 1;
+    width:427px;
+    height:245px;
+    left:534px;
+    top:500px;
+    right:923px;
+    bottom:1045px;
+    background-color:#3B8DE8;
+}
+.bottom-left {
+    position:absolute;
+    z-index: 1;
+    width:466px;
+    height:104px;
+    left:320px;
+    top:770px;
+    right:923px;
+    bottom:1045px;
+    background-color:#3B8DE8;
+}
+.bottom-mid {
+    position:absolute;
+    z-index: 1;
+    width:25px;
+    height:104px;
+    left:786px;
+    top:770px;
+    right:923px;
+    bottom:1045px;
+    background-color:#d0021b;
+}
+.bottom-mid2 {
+    position:absolute;
+    z-index: 1;
+    width:126px;
+    height:104px;
+    left:811px;
+    top:770px;
+    right:923px;
+    bottom:1045px;
+    background-color:#4a4a4a;
+}
+.bottom-right {
+    position:absolute;
+    z-index: 1;
+    width:25px;
+    height:104px;
+    left:937px;
+    top:770px;
+    right:923px;
+    bottom:1045px;
+    background-color:#d0021b;
+}
